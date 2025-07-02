@@ -218,14 +218,14 @@ export default function ScholarshipsPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900">
+   <div className="min-h-screen bg-black">
       <Navbar />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="mb-8">
-          <h1 className="text-3xl font-bold text-white mb-2">Smart Scholarship Matcher</h1>
+          <h1 className="text-3xl font-bold text-white mb-2">Smart Scholarship Oppurtunities</h1>
           <p className="text-purple-200">
-            AI-powered scholarship matching based on your skills, interests, and academic performance. Find funding
+            These scholarships should match with your skills, interests, and academic performance. Find funding
             opportunities that match your profile.
           </p>
         </div>
