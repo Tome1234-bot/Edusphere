@@ -219,7 +219,7 @@ export default function ReferralsPage() {
   }
 
   const shareToSocial = (platform: string, text: string) => {
-    const referralLink = `https://edusphere.com/join?ref=${referralCode}`
+    const referralLink = `https://learnit.com/join?ref=${referralCode}`
     const message = `${text} ${referralLink}`
 
     let shareUrl = ""
@@ -238,7 +238,7 @@ export default function ReferralsPage() {
         shareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(referralLink)}`
         break
       case "Email":
-        shareUrl = `mailto:?subject=Join me on EduSphere&body=${encodeURIComponent(message)}`
+        shareUrl = `mailto:?subject=Join me on Learnit&body=${encodeURIComponent(message)}`
         break
       default:
         return
@@ -260,7 +260,7 @@ export default function ReferralsPage() {
         <div className="mb-8">
           <h1 className="text-3xl font-bold text-white mb-2">Referral Program</h1>
           <p className="text-purple-200">
-            Earn rewards by inviting friends to join EduSphere. The more you refer, the more you earn!
+            Earn rewards by inviting friends to join Learnit. The more you refer, the more you earn!
           </p>
         </div>
 
