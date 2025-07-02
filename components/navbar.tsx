@@ -34,9 +34,9 @@ export function Navbar() {
           {/* Logo */}
           <Link href="/dashboard" className="flex items-center space-x-2 flex-shrink-0">
             <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
-              <span className="text-purple-600 font-bold text-lg">E</span>
+              <span className="text-purple-600 font-bold text-lg">L</span>
             </div>
-            <span className="font-bold text-xl hidden sm:block">EduSphere</span>
+            <span className="font-bold text-xl hidden sm:block">LearnIt</span>
           </Link>
 
           {/* Desktop Navigation - Hidden on mobile and tablet */}
