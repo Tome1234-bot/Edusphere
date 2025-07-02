@@ -34,7 +34,7 @@ export default function DashboardPage() {
   ]
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900">
+    <div className="min-h-screen bg-black">
       <Navbar />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
@@ -44,7 +44,7 @@ export default function DashboardPage() {
             Welcome back, {user?.name?.split(" ")[0] || "Student"}! 👋
           </h1>
           <p className="text-purple-200">
-            Ready to continue your learning journey? You're on a {currentStreak}-day streak!
+            Ready to continue your learning journey?
           </p>
         </div>
 
