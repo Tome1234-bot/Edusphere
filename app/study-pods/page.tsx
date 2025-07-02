@@ -17,7 +17,7 @@ export default function StudyPodsPage() {
   const myStudyPods = [
     {
       id: 1,
-      name: "React Ninjas",
+      name: "React Learners",
       members: 12,
       challenge: "Component Challenge",
       progress: 75,
